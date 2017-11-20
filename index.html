@@ -1,0 +1,50 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title> 
+		Trivia-Game 
+	</title> 
+
+</head> 
+<link rel="stylesheet" href="assets/css/style.css"> 
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head> 
+<body id="body">
+<div class="container">
+	<div class="row"> 	
+		<div class="col-lg-2"></div>
+		<div class="col-lg-3">
+			<img src="assets/images/logo.png" >
+		</div>
+	</div>
+
+	<h2 id="countdown"></h2>
+
+	<div class="row"> 	
+		<div class="col-lg-12">
+			<h1 id="question-num">Question <span id="question"></span></h1> 
+			<div id="buttons"> 
+				<!-- <button class="btn btn-primary btn-lg btn-block" id="a-button"></button> -->
+				<button type="button" class="btn btn-info" id="a"></button>
+				<br> 
+				<button type="button" class="btn btn-info" id="b"></button>
+				<br> 
+				<button type="button" class="btn btn-info" id="c"></button>
+				<br> 
+				<button type="button" class="btn btn-info" id="d"></button> 
+
+			</div> 
+		</div>
+	</div>
+
+	<h3>Score: <span id="score"></span>%</h3> 
+	<p id="right_or_wrong">
+	<p id="game_over">
+		<img src="assets/images/linebreak.png" height="100px">
+</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
+	<script type="text/javascript" src="assets/javascript/game.js"></script> 
+</body> 
+</html> 
