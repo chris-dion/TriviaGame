@@ -51,7 +51,6 @@ var game = {
 	//variables to tally up the score
 	correct: 0,
 	score: 0,
-
     //function to show the current question
 	show_question: function(){
 		//index through the game object for the current question
@@ -65,7 +64,7 @@ var game = {
 		$(".btn-info").on("click", function(){
 			//save the players choice
 			game.player_choice = this.innerHTML;
-			
+
 			//if the player's choice equals the saved answer then increment the correct answer and display that they were correct
 			if(game.player_choice === game.questions[game.question_num - 1].correctAnswer){
 				$('#right_or_wrong').html("Correct");
